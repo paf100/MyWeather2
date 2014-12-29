@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url(wxbkb_default_clear_night_2_mezz_dark.jpg);
+}
+#card {
+                background-color: #fff;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                border-radius: 10px;
+                padding: 8px;
+                overflow: hidden;
+                margin-left:auto;
+                margin-right:auto;
+                width:500px;
+                opacity:0.9;
+            }
+
+            #card>div {
+                padding: 2px;
+            }
+            .large {
+                font-size: x-large;
+                color: #878787;
+            }
+            .medium {
+                font-size: medium;
+                color: #878787;
+            }
+            .degrees {
+                float:left;
+            }
+            .degrees>span {
+                font-size: 64px;
+            }
+            .celcius {
+                float:left;
+                margin-top: 8px;               
+                color: #878787;
+            }
+            #card.hide {
+                display: none;
+            }
+            #card.dayData div {
+                float: left;
+            }
+#img {
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+#weather:first-letter {
+       text-transform: uppercase;
+}
+#buttons {
+                padding: 20px;    
+                margin-left:auto;
+                margin-right:auto;
+                width:530px;    
+}
+#navbar {
+    opacity:0.9;
+}
+.ifError {
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+}
+input {
+    width: 130px;
+}
