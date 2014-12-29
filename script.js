@@ -106,21 +106,6 @@ function makeRequest(link, ifOK) {
    document.body.appendChild(newElem);
 } */
 
-/* function getForecast () {
-    weatherPic.src = "http://www.jartist.de/wp-content/uploads/2014/02/owm100.png";
-    var str = "<h4>Weather for <strong>" + geoData.daysForecast() + "</strong> days:</h4>";
-    var wPic;
-    dayText.innerHTML = str;
-    for (var i=0; i<weather.list.length; i+=1) {
-          var dateTemp = new Date(weather.list[i].dt*1000);
-          
-          str = "<br><strong>" + dateTemp.toString().substring(0,10) + "</strong> Weather: <strong>" + weather.list[i].weather[0].description + "</strong> Temp day: " + Math.round(weather.list[i].temp.day-273.15) +  " Temp night: " + Math.round(weather.list[i].temp.night-273.15);
-          makeElem("p", str);
-          wPic = "http://openweathermap.org/img/w/" + weather.list[i].weather[0].icon + ".png";
-          makeElem("img", wPic);
-    }
-} */
-
 geoButton.addEventListener("click", function (event) {  
     getLocation();
     
