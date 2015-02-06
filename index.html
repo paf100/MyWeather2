@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" charset="utf-8" href="bootstrap.min.css">
+    <link rel="stylesheet" charset="utf-8" href="bootstrap-theme.min.css">
+    <script charset="utf-8" type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script charset="utf-8" type="text/javascript" src="bootstrap.min.js"></script>
+    <script charset="utf-8" src="script.js"></script>
+</head>
+<title>Your Weather</title>
+<body>
+    <nav class="navbar navbar-default" role="navigation" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">
+                    <img id="waitImg" alt="Your City Weather" src="weather-153703_640.png" width="92" height="90">
+                </a>
+
+                <p id="textTop" class="navbar-text navbar-right">
+                    Eremenko Pavel. Forecast by <a href="http://openweathermap.org" class="navbar-link">Openweathermap</a>
+                </p>
+            </div>
+        </div>
+    </nav>
+    <div id="buttons">
+        <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default">Your place</button>
+            <button type="button" class="btn btn-default">Your city:</button>
+            <input type="text" class="btn btn-default" placeholder="Input your city..">
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    Your forecast
+      <span class="caret"></span>
+                </button>
+
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#" id="3d">3 days</a></li>
+                    <li><a href="#" id="5d">5 days</a></li>
+                    <li><a href="#" id="7d">1 week</a></li>
+                    <li><a href="#" id="14d">2 weeks</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="weatherCard" class="card">
+        <div class="large" id="place"></div>
+        <div class="medium" id="date"></div>
+        <div class="medium" id="weather"></div>
+        <div>
+            <img id="img" src="" alt="" />
+            <div class="degrees">
+                <span id="temp"></span>
+            </div>
+            <div class="celcius">&deg;C</div>
+        </div>
+    </div>
+    <div class="ifError">
+        <p id="errorText" align="center"></p>
+    </div>
+</body>
+</html>
