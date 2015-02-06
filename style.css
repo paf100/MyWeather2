@@ -1,0 +1,111 @@
+@media screen and (max-width: 480px) {
+    body {
+        background-image: url(phone.png);
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url(tablet.png);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(desktop.png);
+    }
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 420px;
+    opacity: 0.9;
+}
+
+    .card > div {
+        padding: 2px;
+    }
+
+.large {
+    font-size: x-large;
+    color: #878787;
+}
+
+.medium {
+    font-size: medium;
+    color: #878787;
+}
+
+.degrees {
+    float: left;
+}
+
+    .degrees > span {
+        font-size: 64px;
+    }
+
+.celcius {
+    float: left;
+    margin-top: 8px;
+    color: #878787;
+}
+
+.card.dayData div {
+    float: left;
+}
+
+#weatherCard {
+    display: none;
+}
+
+#img {
+    width: 64px;
+    height: 64px;
+    float: left;
+}
+
+.newImg {
+    width: 48px;
+    height: 48px;
+}
+
+.newDegree {
+    font-size: 32px;
+}
+
+.newCelcius {
+    float: right;
+    color: #878787;
+}
+
+#weather:first-letter {
+    text-transform: uppercase;
+}
+
+#buttons {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+}
+
+#navbar {
+    opacity: 0.9;
+}
+
+.ifError {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 130px;
+}
