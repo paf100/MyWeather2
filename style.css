@@ -1,17 +1,3 @@
-@media screen and (max-width: 479px) {
-    body {
-        background-image: url(320.jpg);
-    }
-    .card {
-        width: 100px;
-    }
-    #buttons {
-        width: 90%;
-    }
-    input {
-        width: 20%;
-    }
-}
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
     body {
